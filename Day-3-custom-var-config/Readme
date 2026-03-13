@@ -1,0 +1,12 @@
+provider "aws" {
+  region  = "us-east-1"
+  profile = "default"
+}
+
+provider "aws" {
+  region  = "us-west-2"
+  alias   = "terraenv"
+  profile = "terra"
+}
+##If need to try seeing how profile works in different accounts, get different accound credentials and try. Else try with giving different regions
+like east / west 
