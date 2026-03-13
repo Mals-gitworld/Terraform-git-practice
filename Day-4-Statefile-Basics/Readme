@@ -1,0 +1,8 @@
+#use case: 1
+    Change the instance tag. see what happens to the state file. -> Takes a backup and says 1 to Change
+#use case: 2
+    Create IAM role in console and add iam_instance profile in main. See what happens to statefile. It says 1 to change.
+    When "apply", It will add the role to the instance.
+#use case: 3
+    When a profile that does not even exists is mentioned in profile, it shows error.
+    
