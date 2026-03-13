@@ -11,8 +11,8 @@ variable "instance_type" {
 }
 
 variable "terra_ami_id" {
-  description = "ami value ami-02dfbd4ff395f2a1b"
-  default     = "ami-02dfbd4ff395f2a1b"
+  description = "ami value ami-03caad32a158f72db"
+  default     = "ami-03caad32a158f72db"
   type        = string
 }
 
